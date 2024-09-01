@@ -8,7 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # Flask app setup
 app = Flask(__name__)
-app.secret_key = '5db0b3a59eccc2f1e003417e4ba04d19'  # Replace with your secret key
+app.secret_key = ''  # Replace with your secret key
 
 # LoginManager setup
 login_manager = LoginManager()
